@@ -53,7 +53,7 @@ if (array_search(1, Route::get_collection()) === false) {
 }
 </pre>
 
-<h3>TestController.php example</p>
+<h3>TestController.php example</h3>
 <pre>
 &lt;?php
 
