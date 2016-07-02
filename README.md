@@ -9,7 +9,7 @@
 <p>In the downloaded files you will find a folder named example, from there you can see different routing tests.</p>
 <p>Important. The .htaccess is required, in the example folder is the .htaccess, simply copy it to the root of your project.</p>
 
-<h3>routes.php example</p>
+<h3>routes.php example</h3>
 
 <pre>
 &lt;?php 
