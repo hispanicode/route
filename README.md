@@ -110,19 +110,19 @@ class TestController{
 </pre>
 
 <h2>public static methods</h2>
-<h4>get($route, $ControllerAction, $regex = array()) - <small>generate get route</small></h4>
-<h4>post($route, $ControllerAction, $regex = array()) - <small>generate post route</small></h4>
-<h4>put($route, $ControllerAction, $regex = array()) - <small>generate put route</small></h4>
-<h4>delete($route, $ControllerAction, $regex = array()) - <small>generate delete route</small></h4>
-<h4>verb($verb = array(), $route, $ControllerAction, $regex = array()) - <small>generate diferents requests to one route. Example: array("get", "post", "put", "delete")</small></h4>
-<h4>group(array $middleware, $group) - <small>grouping routes in a middleware</small></h4>
-<h4>get_collection() - <small>get array with routes collection with two possibles values 0 or 1, If 1 is found, then the route is valid</small></h4>
-<h4>get_controller() - <small>get controller associated with the route</small></h4>
-<h4>base_url() - <small>get base url</small></h4>
-<h4>request_uri() - <small>get request uri</small></h4>
-<h4>is_ssl() - <small>check if is ssl (https)</small></h4>
-<h4>get_route() - <small>get the current route</small></h4>
-<h4>request_method() - <small>get the request method</small></h4>
-<h4>csrf_token($bool) - <small>Create csrf_token session</small></h4>
-<h4>get_csrf_token() - <small>get csrf_token</small></h4>
-<h4>url($route, $args = array()) - <small>generate url from a route</small></h4>
+<p>get($route, $ControllerAction, $regex = array()) - <small>generate get route</small></p>
+<p>post($route, $ControllerAction, $regex = array()) - <small>generate post route</small></p>
+<p>put($route, $ControllerAction, $regex = array()) - <small>generate put route</small></p>
+<p>delete($route, $ControllerAction, $regex = array()) - <small>generate delete route</small></p>
+<p>verb($verb = array(), $route, $ControllerAction, $regex = array()) - <small>generate diferents requests to one route. Example: array("get", "post", "put", "delete")</small></p>
+<p>group(array $middleware, $group) - <small>grouping routes in a middleware</small></p>
+<p>get_collection() - <small>get array with routes collection with two possibles values 0 or 1, If 1 is found, then the route is valid</small></p>
+<p>get_controller() - <small>get controller associated with the route</small></p>
+<p>base_url() - <small>get base url</small></p>
+<p>request_uri() - <small>get request uri</small></p>
+<p>is_ssl() - <small>check if is ssl (https)</small></p>
+<p>get_route() - <small>get the current route</small></p>
+<p>request_method() - <small>get the request method</small></p>
+<p>csrf_token($bool) - <small>Create csrf_token session</small></p>
+<p>get_csrf_token() - <small>get csrf_token</small></p>
+<p>url($route, $args = array()) - <small>generate url from a route</small></p>
