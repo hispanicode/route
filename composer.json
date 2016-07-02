@@ -1,0 +1,28 @@
+{
+	"name": "hispanicode/route",
+	"description": "Php model to define routes with a wide range of possibilities, like routing of laravel, but without relying on anyone, you can adapt this model to your model view controller system very easily.",
+	"homepage": "https://github.com/hispanicoce/route",
+	"keywords": [
+		"route",
+		"routing",
+		"php",
+		"laravel"
+	],
+	"license": "GPL3",
+	"minimum-stability": "dev",
+	"authors": [
+		{
+		  "name": "ManuDavila",
+		  "email": "manudavgonz@gmail.com",
+		  "role": "Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.3.0"
+	},
+	"autoload": {
+		"psr-0": {
+			"Hispanic": "src/"
+		}
+	}
+}
